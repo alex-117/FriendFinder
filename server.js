@@ -6,6 +6,8 @@ var app = express();
 // set port
 var port = process.env.PORT || 3000;
 
+app.use(express.static(path.join(__dirname, './app/public')));
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());

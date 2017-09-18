@@ -1,0 +1,18 @@
+.form-control {
+    margin-bottom: 25px;
+}
+
+#userMatch {
+    text-align: center;
+}
+
+#userMatchImage {
+    border-radius: 100%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+#submit-survey {
+    width: 100%;
+}

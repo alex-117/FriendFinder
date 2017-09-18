@@ -7,7 +7,8 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="assets/style.css">
         <!-- Font Awesome -->
         <script src="https://use.fontawesome.com/c5023e3acd.js"></script>
     </head>
@@ -21,135 +22,188 @@
                <h2>About You</h2>
                
                 <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" required="true">
-                </div>
-                <div class="form-group">
-                    <label for="photo">Link to Photo Image</label>
-                    <input type="text" class="form-control" required="true">
+                    <label for="name">Name (required)</label>
+                    <input id="name" type="text" class="form-control" required="true">
+                    
+                    <label for="photo">Link to Photo Image (required)</label>
+                    <input id="photo" type="text" class="form-control" required="true">
                 </div>
                 
                 <hr>
                 
                 <div class="form-group">
-                    <label for="#">Example select</label>
-                    <select class="form-control" placeholder="select an option">
-                        <option>1</option>
+                    <h3>Question 1</h3>
+                    <label for="question-1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                    <select class="form-control" id="question-1">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 2</h3>
+                    <label for="question-2">Generally speaking, you rely more on your experience than your imagination.</label>
+                    <select class="form-control" id="question-2">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 3</h3>
+                    <label for="question-3">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                    <select class="form-control" id="question-3">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 4</h3>
+                    <label for="question-4">You rarely do something just out of sheer curiosity.</label>
+                    <select class="form-control" id="question-4">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 5</h3>
+                    <label for="question-5">People can rarely upset you.</label>
+                    <select class="form-control" id="question-5">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Questio 6</h3>
+                    <label for="question-6">It is often difficult for you to relate to other people’s feelings.</label>
+                    <select class="form-control" id="question-6">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 7</h3>
+                    <label for="question-7">In a discussion, truth should be more important than people’s sensitivities.</label>
+                    <select class="form-control" id="question-7">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 8</h3>
+                    <label for="question-8">You rarely get carried away by fantasies and ideas.</label>
+                    <select class="form-control" id="question-8">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 9</h3>
+                    <label for="question-9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+                    <select class="form-control" id="question-9">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
+
+                    <h3>Question 10</h3>
+                    <label for="question-10">You feel more energetic after spending time with a group of people.</label>
+                    <select class="form-control" id="question-10">
+                        <option>1 (strongly disagree)</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
-                        <option>5</option>
+                        <option>5 (strongly agree)</option>
                     </select>
                 </div>
                 
-                <button type="submit" class="btn btn-primary" >Submit</button>
+                <button type="submit" id="submit-survey" class="btn btn-primary" >Submit</button>
             </form>
             
+            <div class="modal fade" id="friendModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Best Friend Match!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h5 id="userMatch"></h5>
+                            <img id="userMatchImage" class="materialboxed" width="650" src="">
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
         
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    <script>
+        $("#submit-survey").on("click", function(event) {
+            event.preventDefault();
+            
+            var newSurvey = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores:[
+					$('#question-1').val().trim(),
+					$('#question-2').val().trim(),
+					$('#question-3').val().trim(),
+					$('#question-4').val().trim(),
+					$('#question-5').val().trim(),
+					$('#question-6').val().trim(),
+					$('#question-7').val().trim(),
+					$('#question-8').val().trim(),
+					$('#question-9').val().trim(),
+					$('#question-10').val().trim()
+				]
+            };
+            
+            $.post("/api/friends", newSurvey)
+            .done(function(data) {
+                
+                $("#userMatch").html(data.matchName);
+                $("#userMatchImage").attr("src", data.matchPhoto);
+                
+                $('#friendModal').modal('show');
+            });
+        });
+        
+    
+        
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
     </body>
 </html>
